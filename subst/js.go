@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hemanjayam/sheens/match"
+	"github.com/Comcast/sheens/match"
 	"github.com/dop251/goja"
 )
 

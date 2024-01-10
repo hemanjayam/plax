@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Comcast/sheens/match"
 	"github.com/hemanjayam/plax/subst"
-	"github.com/hemanjayam/sheens/match"
 	jschema "github.com/xeipuuv/gojsonschema"
 )
 
@@ -495,7 +495,7 @@ type Recv struct {
 	Topic string
 
 	// Pattern is a Sheens pattern
-	// https://github.com/hemanjayam/sheens/blob/main/README.md#pattern-matching
+	// https://github.com/Comcast/sheens/blob/main/README.md#pattern-matching
 	// for matching incoming messages.
 	//
 	// Use a pattern for matching JSON-serialized messages.

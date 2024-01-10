@@ -447,10 +447,10 @@ loop caused by a `branch` step.
 
 In a receive (`recv`) step (describe below), the given `pattern` is
 matched against incoming messages.  This matching is [Sheens message
-pattern matching](https://github.com/hemanjayam/sheens#pattern-matching).
+pattern matching](https://github.com/Comcast/sheens#pattern-matching).
 Here are some
-[examples](https://github.com/hemanjayam/sheens/blob/master/match/match.md).
-You can maybe use `go get github.com/hemanjayam/sheens/cmd/patmatch` to
+[examples](https://github.com/Comcast/sheens/blob/master/match/match.md).
+You can maybe use `go get github.com/Comcast/sheens/cmd/patmatch` to
 experiment:
 
 ```Shell
@@ -491,7 +491,7 @@ single operation.  Currently the following steps are supported:
        applies.  [String commands](#string-commands) are also available
 	
 		The pattern has [this
-        structure](https://github.com/hemanjayam/sheens#pattern-matching).
+        structure](https://github.com/Comcast/sheens#pattern-matching).
 		
 		All bindings for variables that start with `?*` are removed
         before this pattern substitution.
@@ -616,9 +616,9 @@ single operation.  Currently the following steps are supported:
 		1. `Failure`: a function that returns an object representing a
            failure with the argument as the failure message.
 		   
-		1. `match`: [Sheen](https://github.com/hemanjayam/sheens)'s
+		1. `match`: [Sheen](https://github.com/Comcast/sheens)'s
             [pattern
-            matching](https://github.com/hemanjayam/sheens#pattern-matching)
+            matching](https://github.com/Comcast/sheens#pattern-matching)
             function.
 		   
 		    ```Javascript
@@ -858,12 +858,12 @@ of both techniques.
 1. [The `plaxrun` manual](plaxrun.md)
 
 1. [Sheens message pattern
-   matching](https://github.com/hemanjayam/sheens#pattern-matching), and
+   matching](https://github.com/Comcast/sheens#pattern-matching), and
    some
-   [examples](https://github.com/hemanjayam/sheens/blob/master/match/match.md)
+   [examples](https://github.com/Comcast/sheens/blob/master/match/match.md)
    
-1. [Sheens](https://github.com/hemanjayam/sheens) could be
-   [used](https://github.com/hemanjayam/sheens/tree/master/sio/siomq) to
+1. [Sheens](https://github.com/Comcast/sheens) could be
+   [used](https://github.com/Comcast/sheens/tree/master/sio/siomq) to
    implement more complex tests and simulations
    
 1. [TCL "expect"](https://en.wikipedia.org/wiki/Expect)

@@ -76,11 +76,11 @@ See the [main documentation](doc/manual.md) and the [examples](demos).
 1. [Plax manual](doc/manual.md) and the [`plaxrun`
    manual](doc/plaxrun.md)
 1. [Sheens pattern
-   matching](https://github.com/hemanjayam/sheens#pattern-matching) and
+   matching](https://github.com/Comcast/sheens#pattern-matching) and
    some
-   [examples](https://github.com/hemanjayam/sheens/blob/master/match/match.md)
-1. [Sheens](https://github.com/hemanjayam/sheens), which could be
-   [used](https://github.com/hemanjayam/sheens/tree/master/sio/siomq) to
+   [examples](https://github.com/Comcast/sheens/blob/master/match/match.md)
+1. [Sheens](https://github.com/Comcast/sheens), which could be
+   [used](https://github.com/Comcast/sheens/tree/master/sio/siomq) to
    implement more complex tests and simulations
 1. [TCL "expect"](https://en.wikipedia.org/wiki/Expect)
 
