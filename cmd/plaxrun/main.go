@@ -27,12 +27,12 @@ import (
 	"log"
 	"os"
 
-	plaxDsl "github.com/Comcast/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 
-	_ "github.com/Comcast/plax/chans/std"
+	_ "github.com/hemanjayam/plax/chans/std"
 
-	"github.com/Comcast/plax/cmd/plaxrun/dsl"
-	_ "github.com/Comcast/plax/cmd/plaxrun/plugins"
+	"github.com/hemanjayam/plax/cmd/plaxrun/dsl"
+	_ "github.com/hemanjayam/plax/cmd/plaxrun/plugins"
 )
 
 var (

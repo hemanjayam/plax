@@ -31,9 +31,9 @@ import (
 	"regexp"
 	"time"
 
-	_ "github.com/Comcast/plax/chans/std"
-	"github.com/Comcast/plax/dsl"
-	"github.com/Comcast/plax/invoke"
+	_ "github.com/hemanjayam/plax/chans/std"
+	"github.com/hemanjayam/plax/dsl"
+	"github.com/hemanjayam/plax/invoke"
 )
 
 var (

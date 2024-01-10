@@ -26,7 +26,7 @@ import (
 	"os/exec"
 	"regexp"
 
-	plaxDsl "github.com/Comcast/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 var (

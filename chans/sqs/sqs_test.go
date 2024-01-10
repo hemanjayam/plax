@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 )
 
 func TestDocsSQS(t *testing.T) {

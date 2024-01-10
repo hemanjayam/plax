@@ -25,14 +25,14 @@
 package std
 
 import (
-	_ "github.com/Comcast/plax/chans"
-	_ "github.com/Comcast/plax/chans/cwl"
-	_ "github.com/Comcast/plax/chans/httpclient"
-	_ "github.com/Comcast/plax/chans/httpserver"
-	_ "github.com/Comcast/plax/chans/kds"
-	_ "github.com/Comcast/plax/chans/kdspub"
-	_ "github.com/Comcast/plax/chans/mqtt"
-	_ "github.com/Comcast/plax/chans/shell"
-	_ "github.com/Comcast/plax/chans/sqlc"
-	_ "github.com/Comcast/plax/chans/sqs"
+	_ "github.com/hemanjayam/plax/chans"
+	_ "github.com/hemanjayam/plax/chans/cwl"
+	_ "github.com/hemanjayam/plax/chans/httpclient"
+	_ "github.com/hemanjayam/plax/chans/httpserver"
+	_ "github.com/hemanjayam/plax/chans/kds"
+	_ "github.com/hemanjayam/plax/chans/kdspub"
+	_ "github.com/hemanjayam/plax/chans/mqtt"
+	_ "github.com/hemanjayam/plax/chans/shell"
+	_ "github.com/hemanjayam/plax/chans/sqlc"
+	_ "github.com/hemanjayam/plax/chans/sqs"
 )

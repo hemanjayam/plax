@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Comcast/plax/cmd/plaxrun/async"
-	plaxDsl "github.com/Comcast/plax/dsl"
-	"github.com/Comcast/plax/junit"
+	"github.com/hemanjayam/plax/cmd/plaxrun/async"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
+	"github.com/hemanjayam/plax/junit"
 )
 
 // TestDef is a test file or suite (directory)

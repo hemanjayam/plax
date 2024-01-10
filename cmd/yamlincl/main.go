@@ -26,7 +26,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 
 	"gopkg.in/yaml.v3"
 )

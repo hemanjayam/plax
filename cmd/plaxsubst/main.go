@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Comcast/plax/subst"
+	"github.com/hemanjayam/plax/subst"
 )
 
 func main() {

@@ -23,11 +23,11 @@ import (
 	"fmt"
 
 	// Import required to dynamically register channels
-	_ "github.com/Comcast/plax/chans"
-	plaxInvoke "github.com/Comcast/plax/invoke"
-	"github.com/Comcast/plax/junit"
+	_ "github.com/hemanjayam/plax/chans"
+	plaxInvoke "github.com/hemanjayam/plax/invoke"
+	"github.com/hemanjayam/plax/junit"
 
-	"github.com/Comcast/plax/cmd/plaxrun/dsl"
+	"github.com/hemanjayam/plax/cmd/plaxrun/dsl"
 )
 
 // PlaxOSPlugin used to invoke plax
@@ -37,7 +37,7 @@ type PlaxOSPlugin struct {
 
 func init() {
 	dsl.ThePluginRegistry.Register(
-		"github.com/Comcast/plax",
+		"github.com/hemanjayam/plax",
 		func(def dsl.PluginDef) (dsl.Plugin, error) {
 			name, err := def.GetPluginDefName()
 			if err != nil {

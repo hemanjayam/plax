@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Comcast/plax/subst"
+	"github.com/hemanjayam/plax/subst"
 )
 
 var (

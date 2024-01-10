@@ -22,8 +22,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Comcast/plax/dsl"
-	"github.com/Comcast/plax/junit"
+	"github.com/hemanjayam/plax/dsl"
+	"github.com/hemanjayam/plax/junit"
 )
 
 const (
@@ -63,7 +63,7 @@ const (
 
 var (
 	// DefaultPluginModule to load; "There can be only one!"
-	DefaultPluginModule PluginModule = "github.com/Comcast/plax"
+	DefaultPluginModule PluginModule = "github.com/hemanjayam/plax"
 )
 
 // GetPluginDefName returns the Name

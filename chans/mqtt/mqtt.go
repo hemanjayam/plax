@@ -29,7 +29,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 
 	mq "github.com/eclipse/paho.mqtt.golang"
 )

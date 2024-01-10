@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	plaxDsl "github.com/Comcast/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 // TestIterate is used to iterate over a collection

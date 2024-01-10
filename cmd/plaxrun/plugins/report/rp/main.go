@@ -8,7 +8,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Comcast/plax/cmd/plaxrun/plugins/report"
+	"github.com/hemanjayam/plax/cmd/plaxrun/plugins/report"
 
 	rp "github.com/avarabyeu/goRP/v5/gorp"
 	resty "github.com/go-resty/resty/v2"

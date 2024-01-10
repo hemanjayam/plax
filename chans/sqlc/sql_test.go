@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 )
 
 func TestChan(t *testing.T) {

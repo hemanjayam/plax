@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Comcast/plax/subst"
+	"github.com/hemanjayam/plax/subst"
 )
 
 type Bindings subst.Bindings

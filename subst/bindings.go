@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Comcast/sheens/match"
+	"github.com/hemanjayam/sheens/match"
 	"github.com/itchyny/gojq"
 )
 

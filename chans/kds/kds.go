@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 
 	kds "github.com/harlow/kinesis-consumer"
 )

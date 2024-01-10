@@ -23,7 +23,7 @@ import (
 	"io/ioutil"
 	"path"
 
-	plaxDsl "github.com/Comcast/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 // TestGuard for guarding tests, groups, or iterations

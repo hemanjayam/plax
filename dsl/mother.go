@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Comcast/plax/subst"
+	"github.com/hemanjayam/plax/subst"
 )
 
 // MotherRequest is the structure for a request to Mother.

@@ -21,8 +21,8 @@ package dsl
 import (
 	"fmt"
 
-	"github.com/Comcast/plax/cmd/plaxrun/async"
-	plaxDsl "github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/cmd/plaxrun/async"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 // TestGroupRef references a group by name

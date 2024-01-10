@@ -28,7 +28,7 @@ import (
 	"plugin"
 	"reflect"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 
 	_ "modernc.org/sqlite"
 )

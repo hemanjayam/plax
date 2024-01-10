@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Comcast/plax/cmd/plaxrun/plugins/report"
-	"github.com/Comcast/plax/dsl"
-	plaxDsl "github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/cmd/plaxrun/plugins/report"
+	"github.com/hemanjayam/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 const (

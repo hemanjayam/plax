@@ -1,6 +1,6 @@
 # Plax: an engine for testing messaging systems
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/Comcast/plax.svg)](https://pkg.go.dev/github.com/Comcast/plax)
+[![Go Reference](https://pkg.go.dev/badge/github.com/hemanjayam/plax.svg)](https://pkg.go.dev/github.com/hemanjayam/plax)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -30,9 +30,9 @@ over a set of channels that are connected to external services.
 Execution of the test verifies that the expected output occurred.
 
 ## Automated Build Status
-[![Test](https://github.com/Comcast/plax/actions/workflows/test.yml/badge.svg)](https://github.com/Comcast/plax/actions/workflows/test.yml)
-[![Tag](https://github.com/Comcast/plax/actions/workflows/tag.yml/badge.svg)](https://github.com/Comcast/plax/actions/workflows/tag.yml)
-[![Release](https://github.com/Comcast/plax/actions/workflows/release.yml/badge.svg)](https://github.com/Comcast/plax/actions/workflows/release.yml)
+[![Test](https://github.com/hemanjayam/plax/actions/workflows/test.yml/badge.svg)](https://github.com/hemanjayam/plax/actions/workflows/test.yml)
+[![Tag](https://github.com/hemanjayam/plax/actions/workflows/tag.yml/badge.svg)](https://github.com/hemanjayam/plax/actions/workflows/tag.yml)
+[![Release](https://github.com/hemanjayam/plax/actions/workflows/release.yml/badge.svg)](https://github.com/hemanjayam/plax/actions/workflows/release.yml)
 
 ## Command-line tools in this repo
 
@@ -76,11 +76,11 @@ See the [main documentation](doc/manual.md) and the [examples](demos).
 1. [Plax manual](doc/manual.md) and the [`plaxrun`
    manual](doc/plaxrun.md)
 1. [Sheens pattern
-   matching](https://github.com/Comcast/sheens#pattern-matching) and
+   matching](https://github.com/hemanjayam/sheens#pattern-matching) and
    some
-   [examples](https://github.com/Comcast/sheens/blob/master/match/match.md)
-1. [Sheens](https://github.com/Comcast/sheens), which could be
-   [used](https://github.com/Comcast/sheens/tree/master/sio/siomq) to
+   [examples](https://github.com/hemanjayam/sheens/blob/master/match/match.md)
+1. [Sheens](https://github.com/hemanjayam/sheens), which could be
+   [used](https://github.com/hemanjayam/sheens/tree/master/sio/siomq) to
    implement more complex tests and simulations
 1. [TCL "expect"](https://en.wikipedia.org/wiki/Expect)
 

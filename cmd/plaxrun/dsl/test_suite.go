@@ -21,9 +21,9 @@ package dsl
 import (
 	"fmt"
 
-	"github.com/Comcast/plax/cmd/plaxrun/async"
+	"github.com/hemanjayam/plax/cmd/plaxrun/async"
 
-	plaxDsl "github.com/Comcast/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 // TestSuiteRef reference

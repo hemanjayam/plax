@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Comcast/sheens/match"
+	"github.com/hemanjayam/sheens/match"
 )
 
 // RegexpMatch compiles the given pattern (as Go regular expression,

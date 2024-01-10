@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"regexp"
 
-	"github.com/Comcast/plax/subst"
+	"github.com/hemanjayam/plax/subst"
 )
 
 func maybeUnmarshalString(s string) (string, bool) {

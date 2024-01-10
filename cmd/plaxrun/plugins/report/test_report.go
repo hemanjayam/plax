@@ -26,7 +26,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/Comcast/plax/junit"
+	"github.com/hemanjayam/plax/junit"
 
 	plugin "github.com/hashicorp/go-plugin"
 )

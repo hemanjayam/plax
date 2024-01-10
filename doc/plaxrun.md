@@ -125,7 +125,7 @@ The `tests:` section defines a set of tests, either test suites or test files, t
 tests:
   wait:
     path: test-wait.yaml
-    version: github.com/Comcast/plax
+    version: github.com/hemanjayam/plax
     params:
       - 'WAIT'
       - 'MARGIN'
@@ -133,7 +133,7 @@ tests:
 
 - `wait:` is the test name used to reference the test from a test group
   - `path:` is the relative path to the test directory (Suite) or file (Test) based on `.` or the `-dir` option
-  - `version: github.com/Comcast/plax` represents the name of the module that implements the plax plugin compatible with the plax execution engine test syntax.  This is optional if the default version `github.com/Comcast/plax` is being targeted
+  - `version: github.com/hemanjayam/plax` represents the name of the module that implements the plax plugin compatible with the plax execution engine test syntax.  This is optional if the default version `github.com/hemanjayam/plax` is being targeted
   - `params:` is the list of parameter name dependencies referencing the parameters defined in the `params` section.  All listed parameters will be evaluated for parameter binding values
     - `- 'WAIT'` is a parameter required by the `test-wait.yaml` test
     - `- 'MARGIN'` is a parameter required by the `test-wait.yaml` test

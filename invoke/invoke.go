@@ -35,8 +35,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Comcast/plax/dsl"
-	"github.com/Comcast/plax/junit"
+	"github.com/hemanjayam/plax/dsl"
+	"github.com/hemanjayam/plax/junit"
 
 	"gopkg.in/yaml.v3"
 )

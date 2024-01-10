@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Comcast/plax/cmd/plaxrun/plugins/report"
+	"github.com/hemanjayam/plax/cmd/plaxrun/plugins/report"
 
 	hclog "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"

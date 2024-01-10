@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 )
 
 func TestDocs(t *testing.T) {

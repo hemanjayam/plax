@@ -20,7 +20,7 @@ tests:
 
   demos:
     path: .
-    version: github.com/Comcast/plax
+    version: github.com/hemanjayam/plax
 
   wait:
     path: test-wait.yaml

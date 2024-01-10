@@ -22,7 +22,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 )
 
 func TestNilTest(t *testing.T) {

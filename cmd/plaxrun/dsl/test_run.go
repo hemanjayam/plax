@@ -27,12 +27,12 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/Comcast/plax/cmd/plaxrun/async"
-	"github.com/Comcast/plax/cmd/plaxrun/plugins/report"
+	"github.com/hemanjayam/plax/cmd/plaxrun/async"
+	"github.com/hemanjayam/plax/cmd/plaxrun/plugins/report"
 
-	"github.com/Comcast/plax/junit"
+	"github.com/hemanjayam/plax/junit"
 
-	plaxDsl "github.com/Comcast/plax/dsl"
+	plaxDsl "github.com/hemanjayam/plax/dsl"
 )
 
 // Ctx is the context type

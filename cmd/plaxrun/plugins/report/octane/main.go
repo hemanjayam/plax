@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Comcast/plax/cmd/plaxrun/plugins/report"
-	"github.com/Comcast/plax/junit"
+	"github.com/hemanjayam/plax/cmd/plaxrun/plugins/report"
+	"github.com/hemanjayam/plax/junit"
 
 	resty "github.com/go-resty/resty/v2"
 	hclog "github.com/hashicorp/go-hclog"

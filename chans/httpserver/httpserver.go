@@ -26,7 +26,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Comcast/plax/dsl"
+	"github.com/hemanjayam/plax/dsl"
 )
 
 var (
