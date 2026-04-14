@@ -695,7 +695,6 @@ func (r *Recv) Exec(ctx *Ctx, t *Test) error {
 			ctx.Indf("    Recv timeout (%v)", timeout)
 			return fmt.Errorf("timeout after %s waiting for %s", timeout, r.Pattern)
 		case m := <-in:
-
 			ctx.Indf("    Recv dequeuing topic '%s' (vs '%s')", m.Topic, r.Topic)
 			ctx.Inddf("                   %s", m.Payload)
 
@@ -754,6 +753,7 @@ func (r *Recv) Exec(ctx *Ctx, t *Test) error {
 					if err != nil {
 						return err
 					}
+
 					ctx.Inddf("      bound pattern: %s", JSON(pattern))
 					bss, err = match.Match(pattern, target, match.NewBindings())
 				}
@@ -762,7 +762,6 @@ func (r *Recv) Exec(ctx *Ctx, t *Test) error {
 					return err
 				}
 				ctx.Indf("      result: %v", 0 < len(bss))
-				ctx.Inddf("      bss: %s", JSON(bss))
 
 				if 0 < len(bss) {
 
@@ -852,6 +851,8 @@ func (r *Recv) Exec(ctx *Ctx, t *Test) error {
 							return Brokenf("Guard Javascript returned a %T (%v) and not a bool", x, x)
 						}
 					}
+
+					ctx.BindingsRedactions(t.Bindings)
 
 					ctx.Indf("    Recv satisfied")
 					ctx.Inddf("      t.Bindings: %s", JSON(t.Bindings))

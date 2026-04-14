@@ -40,3 +40,13 @@ spec:
             pattern: '"?*x"'
             guard: |
               return 0 < bs['?*x'].indexOf("pancakes")
+        - run: |
+            redactRegexp('love (really thin pancakes)');
+        - pub:
+            doc: |
+              Use the previous regexp that has a group. Suppress output.
+            payload: '"I love really thin pancakes."'
+        - recv:
+            pattern: '"?*x"'
+            guard: |
+              return 0 < bs['?*x'].indexOf("pancakes")
